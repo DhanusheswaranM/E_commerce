@@ -25,7 +25,7 @@ public class ECommerceApp {
     public static void main(String[] args) {
         Scanner scanner = null;
         try {
-            connection = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe", "project_ecommerce", "1234");
+            connection = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1522:xe", "project_ecommerce", "1234");
             connection.setAutoCommit(false);
 
             
