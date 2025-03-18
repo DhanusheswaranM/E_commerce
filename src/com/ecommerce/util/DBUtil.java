@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class DBUtil {
-    private static final String URL = "jdbc:oracle:thin:@localhost:1521:xe";
+    private static final String URL = "jdbc:oracle:thin:@localhost:1522:xe";
     private static final String USER = "project_ecommerce";
     private static final String PASSWORD = "1234";
     private static Connection connection;

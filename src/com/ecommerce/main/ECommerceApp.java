@@ -46,7 +46,7 @@ public class ECommerceApp {
              System.out.print("Enter database password: ");
              String dbPassword = scanner.nextLine();
 
-             connection = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe", dbUsername, dbPassword);
+             connection = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1522:xe", dbUsername, dbPassword);
              connection.setAutoCommit(false);
 
              UserDAOImpl userDAO = new UserDAOImpl();
