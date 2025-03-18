@@ -1,4 +1,4 @@
-ecommerce
+project_ecommerce
 1234
 2
 admin
