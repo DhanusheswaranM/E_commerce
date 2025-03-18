@@ -1,7 +1,7 @@
 project_ecommerce
 1234
 2
-admin
+customer
 123
 1
 7
